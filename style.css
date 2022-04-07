@@ -69,6 +69,18 @@ p{
 }
 
 
+.mid .container{
+    height: 90%;
+    display: flex;
+    justify-content: space-around;
+    color: #000000;
+    align-items: center;
+    align-items: flex-start;
+    padding-top: 4%;
+    
+}
+
+
 .footer{
     background-color: #32b9cd;
     color: white;
@@ -80,6 +92,8 @@ p{
     align-items: center;
     height: 150px;
     justify-content: center;
+    align-items: flex-start;
+    
 }
 
 
@@ -129,4 +143,8 @@ form button{
     align-self: center;
     font-size: 18px;
     cursor: pointer;
+}
+
+img {
+    width: 150px;
 }
